@@ -1,0 +1,20 @@
+{
+  "commands": {
+    "токсик": {
+      "type": "text",
+      "responses": ["Ты вообще где?...", "Твой код как старая коврижка!"]
+    },
+    "вирусы": {
+      "type": "url",
+      "url": "https://www.kaspersky.ru/"
+    },
+    "майнинг": {
+      "type": "program",
+      "command": "start notepad.exe"
+    },
+    "дата": {
+      "type": "text",
+      "responses": ["Сегодня: {date}"]
+    }
+  }
+}
